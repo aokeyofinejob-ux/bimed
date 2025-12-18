@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.splash {
+    background-color: #b30000; /* merah seperti di gambar */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #ffcc00; /* kuning BMDSmart */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+}
